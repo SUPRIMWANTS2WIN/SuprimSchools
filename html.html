@@ -1,0 +1,179 @@
+<!CATTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W3SCHOOLS INTERFACE</title>
+
+<style>
+
+/* Body */
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: white;
+}
+
+/* Top Navbar */
+.topnav {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Secondary Navbar */
+.secondnav {
+  background-color: #282A35;
+  padding: 10px;
+}
+
+.secondnav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.secondnav a:hover {
+  background-color: black;
+}
+
+/* Layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f1f1f1;
+  height: calc(100vh - 90px);
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  padding: 15px;
+  margin: 0;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  padding: 25px;
+}
+
+/* Buttons */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #03995f;
+}
+
+/* Code box */
+.codebox {
+  background-color: #E7E9EB;
+  padding: 15px;
+  border-left: 5px solid #04AA6D;
+  margin-top: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Top Navbar -->
+<div class="topnav">
+  MySchool
+</div>
+
+<!-- Second Navbar -->
+<div class="secondnav">
+  <a href="#">HTML</a>
+  <a href="#">CSS</a>
+  <a href="#">JAVASCRIPT</a>
+  <a href="#">PYTHON</a>
+  <a href="#">JAVA</a>
+  <a href="#">C</a>
+  <a href="#">C++</a>
+</div>
+
+<!-- Main Layout -->
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <h3>HTML Tutorial</h3>
+
+    <a href="#">HTML HOME</a>
+    <a href="#">HTML Introduction</a>
+    <a href="#">HTML Editors</a>
+    <a href="#">HTML Basic</a>
+    <a href="#">HTML Elements</a>
+    <a href="#">HTML Attributes</a>
+    <a href="#">HTML Headings</a>
+    <a href="#">HTML Paragraphs</a>
+    <a href="#">HTML Styles</a>
+    <a href="#">HTML Formatting</a>
+    <a href="#">HTML Quotations</a>
+
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <h1>HTML Tutorial</h1>
+
+    <button class="btn">❮ Home</button>
+    <button class="btn">Next ❯</button>
+
+    <p>
+      HTML is the standard markup language for creating Web pages.
+    </p>
+
+    <div class="codebox">
+      <h3>Example:</h3>
+
+      <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;My First Heading&lt;/h1&gt;
+&lt;p&gt;My first paragraph.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
