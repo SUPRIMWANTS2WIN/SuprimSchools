@@ -1,50 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>MySchool</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About Me — Portfolio</title>
+   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="interests.html">Interests</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="main-content">
+    <h1 class="page-title">My Portfolio</h1>
+    <p class="page-subtitle">I'm a grade 11 learner in Kavya School +2.</p>
+    <hr class="divider">
 
-<div class="topnav">
-
-<div class="logo">SUPRIM SCHOOL</div>
-
-<div class="navlinks">
-<a href="#" onclick="tutorials()">Tutorials</a>
-<a href="#" onclick = "HTML()">HTML</a>
-<a href="#" onclick="references()">References</a>
-<a href="#" onclick="exercises()">Exercises</a>
-</div>
-
-<button class="signin-btn" onclick="signin()">Sign In</button>
-
-</div>
-
-
-<div class="darkmenu">
-<a href="#">CSS</a>
-<a href="#">JAVASCRIPT</a>
-<a href="#">PYTHON</a>
-<a href="#">JAVA</a>
-</div>
-
-
-<div class="hero">
-
-<h1>Learn to Code</h1>
-
-<h2>With the world's largest web developer site.</h2>
-
-<div class="searchbox">
-<input type="text" placeholder="Search our tutorials...">
-<button>Search</button>
-</div>
-
-</div>
-
+    <div class="card">
+      <div class="profile-section">
+        <img src="suprim.png" alt="Suprim Gautam" class="profile-image">
+        <div class="profile-info">
+          <h2>Suprim Gautam</h2>
+          <p>
+           I'm a science student studying in Kavya School +2, Mid Baneshwor. I love making fun projects, mostly websites and codings. I'm an average student who likes various science stuffs.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/gautamsuprim0@gmail.com">GitHub</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <blockquote class="quote">
+       “The aim of education should be to teach us how to think, 
+       not what to think.”  <br> — Bill Beattie
+      </blockquote>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2026 Suprim Gautam. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-
